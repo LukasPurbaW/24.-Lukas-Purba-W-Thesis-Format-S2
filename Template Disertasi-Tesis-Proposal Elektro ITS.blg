@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Template Disertasi-Tesis-Proposal Elektro ITS.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEabrv.bib
+Database file #2: ./ubah/pustaka.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in article_Anchor_Box
+Warning--empty journal in Non_Max_Supression
+
+Done.
+You've used 57 entries,
+            4087 wiz_defined-function locations,
+            1698 strings with 38613 characters,
+and the built_in function-call counts, 58855 in all, are:
+= -- 4053
+> -- 3071
+< -- 291
++ -- 1566
+- -- 708
+* -- 3041
+:= -- 7966
+add.period$ -- 115
+call.type$ -- 57
+change.case$ -- 64
+chr.to.int$ -- 573
+cite$ -- 59
+duplicate$ -- 4126
+empty$ -- 4097
+format.name$ -- 754
+if$ -- 13675
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 1070
+newline$ -- 236
+num.names$ -- 55
+pop$ -- 2762
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 4261
+stack$ -- 0
+substring$ -- 1559
+swap$ -- 3620
+text.length$ -- 100
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 57
+warning$ -- 2
+while$ -- 158
+width$ -- 59
+write$ -- 635
+(There were 2 warnings)

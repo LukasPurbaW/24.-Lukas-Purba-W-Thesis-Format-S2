@@ -1,0 +1,24 @@
+\begin{spacing}{1}
+\input{./lib/identitasabstrak.tex}	
+%Tulis Abstrak disini
+Pandemi Covid-19 yang berlangsung dari tahun 2020 telah berlangsung selama 2 tahun. Walaupun
+banyak masyarakat telah menerima vaksin, pemerintah tetap menegaskan masyarakat untuk melakukan protokol kesehatan
+terutama di tempat umum.
+Mengikuti saran dari WHO, salah satu protokol kesehatan yang perlu diterapkan adalah menjaga jarak satu sama lain
+dengan jarak satu meter.
+Namun, dalam penerapan protokol kesehatan, tentunya banyak masyarakat yang lalai untuk menerapkan hal tersebut.
+Oleh karena itu, sebuah sistem deteksi yang dapat membantu memudahkan penerapan protokol kesehatan dirasa dibutuhkan.
+
+Penelitian ini memanfaatkan algoritma Mask-RCNN yang digunakan untuk mendeteksi apakah terdapat kerumunan dalam suatu gambar yang diambil.
+Objek yang dideteksi pada penelitian ini dibagi menjadi tiga kelas yaitu : Crowd, Group, dan Person. Kelas Crowd merupakan
+kelas dimana terletak 4 orang atau lebih dalam radius 1 m, kelas group merupakan kelas dimana terdapat 2-3 orang dalam radius
+1 m sedangkan kelas person merupakan kelas dimana hanya terdapat 1 orang dalam radius 1 m.
+Mask R-CNN mendeteksi objek dengan cara memberikan beberapa proposal objek yang kemudian diproses dengan layer konvolusi dan \emph{fully connected layer}.
+Keluaran dari layer konvolusi adalah \emph{mask} yang menunjukkan segmentasi gambar, sedangkan keluaran dari \emph{fully connected layers} adalah memberikan \emph{bounding box} serta menentukan nama kelas dari objek tersebut.
+Hasil dari penelitian ini adalah model yang dapat mendeteksi adanya kerumunan dengan akurasi sebesar 88.79\%.
+
+%Tulis Kata Kunci disini
+\vspace{2ex}
+\textbf{Kata kunci }: Mask R-CNN, Deteksi Kerumunan, \emph{deep learning}, Covid-19.
+	
+\end{spacing}

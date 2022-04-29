@@ -1,0 +1,144 @@
+
+\begin{spacing}{1.2}
+  \chapter{PENDAHULUAN}
+\end{spacing}
+
+\pagenumbering{arabic}
+\vspace{4ex}
+
+Penelitian ini memiliki beberapa latar belakang yang disebabkan oleh berbagai kondisi yang menjadi 
+acuan. Selain itu juga terdapat beberapa permasalahan yang akan dijawab sebagai keluaran dari 
+penelitian.
+
+\section{Latar Belakang}
+Virus Corona merupakan varian virus yang dapat menginfeksi manusia, gejala yang ditimbulkan oleh varian
+virus ini meliputi infeksi paru-paru, pneumonia, demam, dan kesusahan bernapas. Dalam 2 dekade terakhir,
+Virus Corona telah menyebabkan 3 pandemi besar \cite{10.1093/ajcp/aqaa029}.
+Pada tahun 2002, sebuah varian virus corona yang dinamakan \textit{Severe Acute Respiratory Syndrome Corona Virus
+(SARS-CoV)} menginfeksi manusia untuk pertama kalinya di Cina \cite{pmid12690091,pmid12690092},
+varian virus ini menginfeksi 8.000 orang dan menyebabkan kematian bagi 750 orang. 10 Tahun kemudian pada tahun 2012,
+varian baru virus corona yang dinamakan \textit{Middle East Repiratory Syndrome Corona Virus (MERS-CoV)} \cite{pmid23075143}.
+MERS-COV menginfeksi 2.494 pasien dari beberapa negara di Timur Tengah dan menimbulkan korban jiwa sebanyak 866 orang. Kemudian varian Virus Corona
+yang dinilai paling mematikan muncul pada pada Desember 2019 dan menyebabkan pandemi besar di Kota Wuhan, Provinsi Hubei,
+Cina. Virus ini dinamakan SARS-CoV-2.
+
+Penyakit yang ditimbulkan oleh SARS-CoV 2 dinamakan \textit{Corona Virus disease 2019} atau COVID-19,
+gejala COVID-19 meliputi sakit kepala berat, demam, batuk, dan diare \cite{pmid32835023}.
+Pada 29 Oktober 2021, COVID-19 telah menginfeksi lebih dari 450 juta orang dan mengakibatkan kurang lebih 6.000.000 korban jiwa
+\cite{WHO}. Walaupun tingkat persentase kematian SARS-CoV 2 lebih rendah dibandingkan SARS-CoV maupun MERS-CoV,
+kemampuan penyebaran SARS-CoV 2 lebih tinggi dibandingkan varian virus sebelum-sebelumnya \cite{pmid32226295}.
+Virus SARS-CoV 2 dapat dengan mudah menyebar melalui \textit{droplet} atau tetesan air yang dikeluarkan dari
+penderita. Penularan virus SARS-COV 2 sering terjadi kepada orang dengan kondisi sehat
+saat penderita berbicara tanpa menggunakan masker kepada orang tersebut \cite{pmid32355904}.
+
+Tidak hanya kerugian dalam dampak kesehatan, pandemi Covid-19 juga memberikan dampak ekonomi secara negatif dimana
+bisnis pada berbagai sektor mengalami penurunan keuntungan \cite{pmid34337569}.
+Sepanjang pandemi Covid-19, negara di seluruh dunia pun mengalami penurunan
+pemasukan.  Rata-rata penurunan pemasukan tersebut bernilai 4.8\% pada negara dengan pemasukan kecil dan penurunan rata-rata
+8.9\% pada negara dengan pemasukan besar. Salah satu contoh sektor yang mengalami kerugian besar ialah sektor aviasi. Penerbangan sektor internasional
+menjadi terhambat dikarenakan negara-negara yang melakukan \textit{lockdown} dan menerapkan kebijakan
+\textit{travel restriction}. Hal ini dibuktikan dengan penerbangan komersial Internasional Amerika
+yang awalnya 4.000 penerbangan per bulan pada tahun 2019 turun menjadi 1.500 penerbangan per
+bulannya pada tahun 2020 \cite{TRUONG2021102126}.
+
+Mudahnya penularan virus SARS-CoV 2 serta besarnya efek negatif yang ditimbulkan menjadi alasan bagi pemerintah untuk
+melakukan pencegahan dan mengurangi penularan virus SARS-CoV 2. \textit{World Health Organization}
+menyarankan agar masyarakat menjaga jarak dan melakukan \textit{physical distancing}
+dengan jarak satu meter \cite{WHO2}. Berdasarkan hal tersebut, Indonesia melakukan berbagai
+kebijakan, beberapa diantaranya ialah pengadaan PPKM yang diatur pada PerPres no 21 tahun 2020 yang meliputi
+peliburan sekolah dan tempat kerja, pembatasan kegiatan keagamaan, dan pembatasan kegiatan di tempat umum.
+Selain kebijakan tersebut Kepala Kepolisian Negara Republik Indonesia juga mengeluarkan maklumat
+yang melarang adanya aktivitas berkumpulnya massa dalam jumlah banyak, baik di tempat umum maupun di lingkungan
+sendiri \cite{DJALANTE2020100091}.
+
+Dalam melakukan pengawasan kerumunan dan mengurangi penularan virus corona, sering kali petugas
+melakukan patroli dan peninjauan lokasi secara langsung. Namun patroli tentunya membutuhkan personil untuk datang ke 
+lokasi dan hanya dilakukan pada jam serta hari-hari tertentu. Tidak hanya itu, patroli yang dilakukan tidak dapat
+mendata tempat keramaian secara detail untuk analisa lebih lanjut. Dengan permasalahan tersebut,
+penulis menawarkan solusi untuk melakukan pengawasan kerumunan dengan pembelajaran mesin menggunakan
+algoritma mask R-CNN. Selain untuk pengawasan kerumunan untuk mengurangi penyebaran Covid-19, data
+deteksi kerumunan ini juga dapat digunakan untuk desain arsitektur tempat umum seperti ruang tunggu,
+maupun pintu masuk ruangan yang lebih mendukung gaya hidup pasca Covid-19.
+
+\section{Rumusan Masalah}
+Pemantauan kerumunan selama ini masih dijalankan secara pemeriksaan manual. Petugas masih harus melakukan
+pemantauan pada video cctv atau datang ke lokasi langsung untuk melakukan patroli. Jika kondisi wilayah yang
+perlu diamati bertambah dan sumber daya manusia pemerintah kota tidak mencukupi dalam melaksanakan pemantauan kerumunan di
+berbagai wilayah, maka kerumunan tidak dapat diketahui dan berpotensi besar menjadi salah satu media penyebaran
+Virus Corona. Berdasarkan penjelasan di atas, maka akan dikembangkan sebuah sistem deteksi kerumunan otomatis
+menggunakan algoritma kecerdasan buatan Mask R-CNN. Harapannya tidak hanya data deteksi kerumunan yang diberikan
+dapat digunakan untuk mengatasi dan melaporkan situasi kerumunan,
+data ini juga dapat digunakan dalam pemodelan penularan virus maupun desain ruang yang lebih baik.
+
+\section{Tujuan}
+Tujuan utama dari penelitian ini adalah mempersiapkan teknologi untuk melakukan
+pengamatan secara otomatis terhadap suatu wilayah dalam rangka mengurangi penyebaran virus
+corona maupun mengambil informasi mengenai kerumunan di beberapa wilayah,
+serta mengurangi sumber daya manusia yang diperlukan untuk melakukan pengawasan kerumunan.
+Selain untuk mempersiapkan teknologi masa depan yang dapat memonitoring kerumunan, 
+deteksi kerumunan secara otomatis juga dapat digunakan untuk melihat apakah PPKM yang 
+dilaksanakan berhasil atau tidak dengan mengetahui jumlah kerumunan yang terjadi. 
+Semua hal ini dilakukan dalam rangka menurunkan kasus Covid-19 dan mengurangi penyebaran Virus Corona.
+
+\section{Batasan Masalah}
+
+Untuk memfokuskan permasalahan yang diangkat, maka dilakukan pembatasan masalah.
+Batasan - batasan masalah tersebut diantaranya adalah :
+
+\begin{enumerate}[itemsep=-0.2em]
+      \item Data yang diambil merupakan data video dengan kondisi nyata di salah satu pusat
+            perbelanjaan Surabaya, Jawa Timur, Indonesia.
+      \item Algoritma yang digunakan dalam penelitian ini ialah Mask R-CNN.
+      \item Pengambilan data dilakukan dari ketinggian dan sudut pengambilan yang akan didefinisikan pada Bab 3.
+      \item Kelas yang dideteksi dibedakan menjadi tiga kelas yaitu \textit{person, group, crowd} yang didefinisikan oleh peneliti.
+      \item Pengambilan data dilakukan pada bulan Januari 20222 di Pasar Atom Surabaya pada jam 1 siang hingga 4 sore.
+      \item Objek yang dideteksi merupakan objek orang segala usia.
+      \item Hasil keluaran dari penelitian ini adalah model pembelajaran mesin yang dapat digunakan untuk mendeteksi kerumunan Indonesia.
+
+\end{enumerate}
+
+\section{Manfaat}
+Diharapkan penelitian ini dapat mendeteksi kerumunan dalam rangka membantu penanganan Covid-19 
+maupun pandemi masa depan yang mungkin terjadi. Hasil dari deteksi kerumunan dapat digunakan sebagai
+sistem \textit{monitoring} atau sebagai penghasil data mengenai perilaku masyarakat pasca pandemi Covid-19,
+selain itu, diharapkan penelitian ini dapat membantu penanganan pandemi di masa depan.
+
+\section{Sistematika Penulisan}
+
+Laporan penelitian ini tersusun dalam sistematika dan terstruktur sehingga mudah
+dipahami dan dipelajari oleh pembaca maupun seseorang yang ingin melanjutkan penelitian ini.
+Alur sistematika penulisan laporan penelitian ini yaitu :
+
+\begin{enumerate}[topsep=0em]
+
+      \item \textbf{BAB I Pendahuluan}
+            Bab ini berisi uraian tentang latar belakang permasalahan, penegasan
+            dan alasan pemilihan judul, sistematika laporan, tujuan dan metodologi penelitian.
+      \item \textbf{BAB II Tinjauan Pustaka}
+
+            Bab ini berisi tentang uraian secara sistematis teori - teori yang
+            berhubungan dengan permasalahan yang dibahas pada penelitian ini.
+            Teori - teori ini digunakan sebagai dasar dalam penelitian, yaitu informasi terkait
+            \textit{Deep Learning}, \textit{Object Detection},
+            \textit{Mask R-CNN}, dan teori - teori penunjang lainnya.
+
+      \item \textbf{BAB III Desain dan Implementasi Sistem}
+
+            Bab ini berisi tentang penjelasan - penjelasan terkait eksperimen yang akan dilakukan,
+            langkah - langkah pengambilan dataset dan proses pembagian kelas kerumunan.
+            Untuk mendukung hal tersebut, maka ditampilkan pula \textit{workflow} agar proses penelitian
+            yang akan dibuat dapat terlihat dan mudah dibaca untuk proses pembuatan pada pelaksanaan tugas akhir.
+
+      \item \textbf{BAB IV Pengujian dan Analisa}
+
+            Bab ini menjelaskan tentang hasil serta analisis yang didapatkan dari pengujian yang
+            dilakukan mulai dari hasil pengujian \textit{precision}, \textit{recall}, \textit{Confusion Matrix}
+            serta rekomendasi penggunaan model.
+
+      \item \textbf{BAB V Penutup}
+
+            Bab ini berisi penutup yang berisi kesimpulan yang diambil dari penelitian dan
+            pengujian yang telah dilakukan. Saran mengenai langkah selanjutnya untuk pengembangan
+            lebih lanjut juga dituliskan pada bagian ini.
+
+\end{enumerate}

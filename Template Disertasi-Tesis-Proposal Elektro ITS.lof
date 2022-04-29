@@ -1,0 +1,55 @@
+\babel@toc {indonesian}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Artificial Neural Network}\relax }}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fungsi Sigmoid\relax }}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Fungsi Tanh\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Fungsi ReLu\relax }}{17}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Contoh Arsitektur CNN\relax }}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Konvolusi\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Contoh \textit {Pooling} 2x2\relax }}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textit {Intersect over Union}\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Contoh \textit {Two Stage Detector}\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Arsitektur YOLO \cite {YOLOYOLA}\relax }}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Arsitektur Mask R-CNN \cite {Mask-archi}\relax }}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Macam - macam \textit {Residual Network (ResNet)} \cite {https://doi.org/10.48550/arxiv.1512.03385}\relax }}{26}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bagan Umum Metodologi Penelitian\relax }}{34}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Alur Pembentukan Dataset\relax }}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Konfigurasi Pengambilan Gambar\relax }}{36}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Software VIA \cite {dutta2019vgg}\relax }}{37}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Contoh Hasil Uji Coba Pembuatan Dataset \cite {matterport_maskrcnn_2017}\relax }}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Tahap \textit {Preprocessing}\relax }}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Proses Ektraksi Fitur\relax }}{40}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Bentuk \textit {Anchor Box} \cite {article_Anchor_Box}\relax }}{41}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hasil \textit {non max supression} (kanan) \cite {Non_Max_Supression}\relax }}{42}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Contoh \textit {Feature map} pada \textit {layer} berbeda \cite {matterport_maskrcnn_2017}\relax }}{42}{figure.caption.28}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Contoh Kelas \textit {Person}\relax }}{48}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Contoh Kelas \textit {Group}\relax }}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Contoh Kelas \textit {Crowd}\relax }}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Contoh Beberapa Hasil Dataset\relax }}{50}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Contoh Hasil Pembuatan \textit {Bounding Box}\relax }}{50}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Contoh Hasil \textit {Resizing} Image\relax }}{51}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Contoh Hasil Pembuatan \textit {Mini Mask}\relax }}{52}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Arsitektur Mask R-CNN yang diaplikasikan\relax }}{52}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Hasil \textit {Anchor Box} yang Dihasilkan\relax }}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Contoh Hasil \textit {Anchor Box} yang Menjadi Target RPN\relax }}{54}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Contoh Hasil \textit {Anchor Box} yang Tidak Digunakan\relax }}{55}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Contoh Hasil Prediksi RPN\relax }}{55}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Contoh Hasil \textit {Feature Map}\relax }}{55}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Hasil \textit {Loss}\relax }}{58}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Hasil \textit {Class Loss} RPN\relax }}{59}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Hasil \textit {Bounding Box Loss} RPN\relax }}{59}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Hasil \textit {Class Loss} Mask RCNN\relax }}{60}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Hasil \textit {Bounding Box Loss} Mask RCNN\relax }}{61}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Hasil \textit {Mask Loss} Mask RCNN\relax }}{62}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Hasil Prediksi (1)\relax }}{63}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Hasil Prediksi dan IoU (1)\relax }}{63}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Hasil Kurva Prediksi dan Recall (1)\relax }}{64}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Contoh Hasil Prediksi (2)\relax }}{65}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Hasil Kurva Prediksi dan Recall (2)\relax }}{66}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Contoh Hasil Prediksi dan IoU(2)\relax }}{66}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Beberapa Hasil Deteksi pada Dataset Test\relax }}{67}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces \textit {Confusion Matrix} dari Hasil Prediksi Test Dataset\relax }}{67}{figure.caption.59}%
+\addvspace {10\p@ }

@@ -1,0 +1,36 @@
+\chapter{PENUTUP}
+\label{sec:chap5_tutup}
+\vspace{1ex}
+\section*{}
+
+\section{Kesimpulan}
+\label{sec:sec4_kesimpulan}
+\vspace{1ex}
+Pada penelitian ini, sebuah dataset mengenai aktivitas jual beli pada suatu pusat perbelanjaan Di
+Surabaya berhasil dibentuk dengan total gambar 730 dan total objek 4.980.
+Dataset yang dibentuk memiliki total objek kelas \textit{person} sebanyak 3.382 objek,
+objek kelas \textit{group} sebanyak 1.350 objek, dan objek kelas \textit{crowd} sebanyak 248 objek.
+Dataset tersebut dapat diakses pada \href{https://www.kaggle.com/datasets/lukaspurbaw/indonesia-pasar-atom-crowd-dataset}. 
+Selain dataset, penelitian ini juga memberikan kontribusi berupa alur kerja penerapan deteksi objek
+kerumunan pada pusat perbelanjaan, dan memberikan model yang dapat mendeteksi kerumunan dengan baik.
+Berdasarkan hasil penilitian ini penggunaan algoritma Mask R-CNN pada dataset ini terbukti dapat 
+membedakan objek kelas \textit{person} dimana objek kelas \textit{person} adalah orang yang tidak berdekatan dengan orang lain
+dalam jarak kurang lebih satu meter dengan objek kelas \textit{group} dan kelas \textit{crowd} yang
+merupakan objek orang yang saling berdekatan dalam jarak satu meter.  Model Mask R-CNN yang dibentuk
+dengan \textit{backbone} ResNet 101 memiliki akurasi 88,79\% dalam mendeteksi objek pada dataset dengan
+parameter \textit{confidence} lebih dari sama dengan 70\% dan \textit{intersect over union}
+lebih dari sama dengan 50\% dengan \textit{mask} asli meskipun terdapat ketidak seimbangan data. Model yang dibentuk masih memiliki nilai \textit{recall}
+dan presisi yang kecil dalam mendeteksi objek kelas \textit{crowd} karena data kelas \textit{crowd}
+hanyalah 5\% dari total seluruh objek yang ada. Secara umum, model yang dibentuk dapat memprediksi 
+adanya \textit{group} dan \textit{crowd}. Namun apakah model ini dapat digunakan dalam tempat
+pusat perbelanjaan lain masih perlu diteliti lebih lanjut.
+
+\section{Saran}
+\label{sec:sec4_saran}
+\vspace{1ex}
+Walaupun model ini secara umum sudah dapat mendeteksi apakah terdapat kerumunan atau tidak, namun
+nilai \textit{recall} dan presisi saat mendeteksi objek \textit{crowd} masih dinilai rendah. Hal ini
+disebabkan oleh tidak seimbangnya dataset yang telah dikumpulkan. Dikarenakan pengumpulan dataset
+dilakukan pada masa pandemi Covid-19, maka jumlah kerumunan yang terjadi pun tidak banyak. Dataset
+dan model dapat diperbaiki dengan menambah data terutama objek kelas \textit{crowd}.
+
